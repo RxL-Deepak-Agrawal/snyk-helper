@@ -4,60 +4,127 @@ import java.util.Arrays;
 import java.util.List;
 
 public enum CveHandled {
-	
+
 	CVE202438816(
-			"CVE-2024-38816", 
+			"CVE-2024-38816",
 			Arrays.asList("org.springframework:spring-webmvc"),
-			Arrays.asList("5.3.39-rxlogix-1", "5.3.39-rxlogix-2", "5.3.39-rxlogix-3", "5.3.39-rxlogix-4", "5.3.39-rxlogix-5", "5.3.39-rxlogix-6")),
+			Arrays.asList("5.3.39-rxlogix-1", "5.3.39-rxlogix-2", "5.3.39-rxlogix-3", "5.3.39-rxlogix-4", "5.3.39-rxlogix-5", "5.3.39-rxlogix-6", "5.3.39-rxlogix-7")),
 	CVE202438819(
-			"CVE-2024-38819", 
+			"CVE-2024-38819",
 			Arrays.asList("org.springframework:spring-webmvc"),
-			Arrays.asList("5.3.39-rxlogix-1", "5.3.39-rxlogix-2", "5.3.39-rxlogix-3", "5.3.39-rxlogix-4", "5.3.39-rxlogix-5", "5.3.39-rxlogix-6")),
+			Arrays.asList("5.3.39-rxlogix-1", "5.3.39-rxlogix-2", "5.3.39-rxlogix-3", "5.3.39-rxlogix-4", "5.3.39-rxlogix-5", "5.3.39-rxlogix-6", "5.3.39-rxlogix-7")),
 	CVE202438820(
-			"CVE-2024-38820", 
+			"CVE-2024-38820",
 			Arrays.asList(
 					"org.springframework:spring-context",
 					"org.springframework:spring-websocket",
 					"org.springframework:spring-core",
 					"org.springframework:spring-web",
 					"org.springframework:spring-webmvc"),
-			Arrays.asList("5.3.39-rxlogix-1", "5.3.39-rxlogix-2", "5.3.39-rxlogix-3", "5.3.39-rxlogix-4", "5.3.39-rxlogix-5", "5.3.39-rxlogix-6")),
+			Arrays.asList("5.3.39-rxlogix-1", "5.3.39-rxlogix-2", "5.3.39-rxlogix-3", "5.3.39-rxlogix-4", "5.3.39-rxlogix-5", "5.3.39-rxlogix-6", "5.3.39-rxlogix-7")),
 	CVE202438828(
-			"CVE-2024-38828", 
+			"CVE-2024-38828",
 			Arrays.asList("org.springframework:spring-webmvc"),
-			Arrays.asList("5.3.39-rxlogix-2", "5.3.39-rxlogix-3", "5.3.39-rxlogix-4", "5.3.39-rxlogix-5", "5.3.39-rxlogix-6")),
+			Arrays.asList("5.3.39-rxlogix-2", "5.3.39-rxlogix-3", "5.3.39-rxlogix-4", "5.3.39-rxlogix-5", "5.3.39-rxlogix-6", "5.3.39-rxlogix-7")),
 	CVE202541242(
-			"CVE-2025-41242", 
+			"CVE-2025-41242",
 			Arrays.asList("org.springframework:spring-beans"),
-			Arrays.asList("5.3.39-rxlogix-3", "5.3.39-rxlogix-4", "5.3.39-rxlogix-5", "5.3.39-rxlogix-6")),
+			Arrays.asList("5.3.39-rxlogix-3", "5.3.39-rxlogix-4", "5.3.39-rxlogix-5", "5.3.39-rxlogix-6", "5.3.39-rxlogix-7")),
 	CVE202541249(
-			"CVE-2025-41249", 
+			"CVE-2025-41249",
 			Arrays.asList("org.springframework:spring-core"),
-			Arrays.asList("5.3.39-rxlogix-4", "5.3.39-rxlogix-5", "5.3.39-rxlogix-6")),
+			Arrays.asList("5.3.39-rxlogix-4", "5.3.39-rxlogix-5", "5.3.39-rxlogix-6", "5.3.39-rxlogix-7")),
 	CVE202541254(
 			"CVE-2025-41254",
 			Arrays.asList("org.springframework:spring-websocket"),
-			Arrays.asList("5.3.39-rxlogix-5", "5.3.39-rxlogix-6")),
+			Arrays.asList("5.3.39-rxlogix-5", "5.3.39-rxlogix-6", "5.3.39-rxlogix-7")),
 	CVE202622735(
 			"CVE-2026-22735",
 			Arrays.asList("org.springframework:spring-webmvc", "org.springframework:spring-web"),
-			Arrays.asList("5.3.39-rxlogix-6")),
+			Arrays.asList("5.3.39-rxlogix-6", "5.3.39-rxlogix-7")),
 	CVE202622737(
 			"CVE-2026-22737",
 			Arrays.asList("org.springframework:spring-webmvc", "org.springframework:spring-webflux"),
-			Arrays.asList("5.3.39-rxlogix-6")),
+			Arrays.asList("5.3.39-rxlogix-6", "5.3.39-rxlogix-7")),
 	CVE202622740(
 			"CVE-2026-22740",
 			Arrays.asList("org.springframework:spring-web"),
-			Arrays.asList("5.3.39-rxlogix-6")),
+			Arrays.asList("5.3.39-rxlogix-6", "5.3.39-rxlogix-7")),
 	CVE202622741(
 			"CVE-2026-22741",
 			Arrays.asList("org.springframework:spring-webmvc", "org.springframework:spring-webflux"),
-			Arrays.asList("5.3.39-rxlogix-6")),
+			Arrays.asList("5.3.39-rxlogix-6", "5.3.39-rxlogix-7")),
 	CVE202622745(
 			"CVE-2026-22745",
 			Arrays.asList("org.springframework:spring-core"),
-			Arrays.asList("5.3.39-rxlogix-6")),
+			Arrays.asList("5.3.39-rxlogix-6", "5.3.39-rxlogix-7")),
+
+	// June-2026 Snyk wave — first fixed in 5.3.39-rxlogix-7 (PVADMIN-50255)
+	CVE202641838(
+			"CVE-2026-41838",
+			Arrays.asList("org.springframework:spring-websocket"),
+			Arrays.asList("5.3.39-rxlogix-7")),
+	CVE202641839(
+			"CVE-2026-41839",
+			Arrays.asList("org.springframework:spring-web"),
+			Arrays.asList("5.3.39-rxlogix-7")),
+	CVE202641840(
+			"CVE-2026-41840",
+			Arrays.asList("org.springframework:spring-web"),
+			Arrays.asList("5.3.39-rxlogix-7")),
+	CVE202641841(
+			"CVE-2026-41841",
+			Arrays.asList("org.springframework:spring-webmvc", "org.springframework:spring-webflux"),
+			Arrays.asList("5.3.39-rxlogix-7")),
+	CVE202641842(
+			"CVE-2026-41842",
+			Arrays.asList("org.springframework:spring-webmvc", "org.springframework:spring-webflux"),
+			Arrays.asList("5.3.39-rxlogix-7")),
+	CVE202641843(
+			"CVE-2026-41843",
+			Arrays.asList("org.springframework:spring-webmvc", "org.springframework:spring-webflux"),
+			Arrays.asList("5.3.39-rxlogix-7")),
+	CVE202641844(
+			"CVE-2026-41844",
+			Arrays.asList("org.springframework:spring-webmvc", "org.springframework:spring-webflux"),
+			Arrays.asList("5.3.39-rxlogix-7")),
+	CVE202641845(
+			"CVE-2026-41845",
+			Arrays.asList("org.springframework:spring-web"),
+			Arrays.asList("5.3.39-rxlogix-7")),
+	CVE202641846(
+			"CVE-2026-41846",
+			Arrays.asList("org.springframework:spring-webmvc"),
+			Arrays.asList("5.3.39-rxlogix-7")),
+	CVE202641848(
+			"CVE-2026-41848",
+			Arrays.asList("org.springframework:spring-core"),
+			Arrays.asList("5.3.39-rxlogix-7")),
+	CVE202641849(
+			"CVE-2026-41849",
+			Arrays.asList("org.springframework:spring-expression"),
+			Arrays.asList("5.3.39-rxlogix-7")),
+	CVE202641850(
+			"CVE-2026-41850",
+			Arrays.asList("org.springframework:spring-expression"),
+			Arrays.asList("5.3.39-rxlogix-7")),
+	CVE202641851(
+			"CVE-2026-41851",
+			Arrays.asList("org.springframework:spring-core", "org.springframework:spring-expression"),
+			Arrays.asList("5.3.39-rxlogix-7")),
+	CVE202641852(
+			"CVE-2026-41852",
+			Arrays.asList("org.springframework:spring-expression"),
+			Arrays.asList("5.3.39-rxlogix-7")),
+	CVE202641853(
+			"CVE-2026-41853",
+			Arrays.asList("org.springframework:spring-web"),
+			Arrays.asList("5.3.39-rxlogix-7")),
+	CVE202641855(
+			"CVE-2026-41855",
+			Arrays.asList("org.springframework:spring-jms"),
+			Arrays.asList("5.3.39-rxlogix-7")),
+
 	CVE202412801(
 			"CVE-2024-12801",
 			Arrays.asList("ch.qos.logback:logback-core"),
@@ -83,17 +150,41 @@ public enum CveHandled {
 			Arrays.asList("net.sf.jasperreports:jasperreports"),
 			Arrays.asList("6.4.0.3-Rx")),
 	CVE202522228(
-			"CVE-2025-22228", 
+			"CVE-2025-22228",
 			Arrays.asList("org.springframework.security:spring-security-crypto"),
-			Arrays.asList("5.8.16-rxlogix-1", "5.8.16-rxlogix-2")),
+			Arrays.asList("5.8.16-rxlogix-1", "5.8.16-rxlogix-2", "5.8.16-rxlogix-3")),
 	CVE202622732(
 			"CVE-2026-22732",
 			Arrays.asList("org.springframework.security:spring-security-web"),
-			Arrays.asList("5.8.16-rxlogix-2")),
+			Arrays.asList("5.8.16-rxlogix-2", "5.8.16-rxlogix-3")),
 	CVE202622746(
 			"CVE-2026-22746",
 			Arrays.asList("org.springframework.security:spring-security-core"),
-			Arrays.asList("5.8.16-rxlogix-2")),
+			Arrays.asList("5.8.16-rxlogix-2", "5.8.16-rxlogix-3")),
+
+
+	CVE202641694(
+			"CVE-2026-41694",
+			Arrays.asList("org.springframework.security:spring-security-saml2-service-provider"),
+			Arrays.asList("5.8.16-rxlogix-3")),
+	CVE202640988(
+			"CVE-2026-40988",
+			Arrays.asList("org.springframework.security:spring-security-saml2-service-provider"),
+			Arrays.asList("5.8.16-rxlogix-3")),
+	CVE202641003(
+			"CVE-2026-41003",
+			Arrays.asList("org.springframework.security:spring-security-saml2-service-provider"),
+			Arrays.asList("5.8.16-rxlogix-3")),
+	CVE202641706(
+			"CVE-2026-41706",
+			Arrays.asList("org.springframework.security:spring-security-web"),
+			Arrays.asList("5.8.16-rxlogix-3")),
+	CVE202647838(
+			"CVE-2026-47838",
+			Arrays.asList("org.springframework.security:spring-security-web"),
+			Arrays.asList("5.8.16-rxlogix-3")),
+
+
 	CVE202522235(
 			"CVE-2025-22235",
 			Arrays.asList("org.springframework.boot:spring-boot-actuator-autoconfigure"),
@@ -125,11 +216,11 @@ public enum CveHandled {
 			Arrays.asList("org.springframework.boot:spring-boot-autoconfigure"),
 			Arrays.asList("2.7.18-rxlogix-4")),
 	CVE202548924(
-			"CVE-2025-48924", 
+			"CVE-2025-48924",
 			Arrays.asList("commons-lang:commons-lang"),
 			Arrays.asList("2.6.rx1")),
 	CVE202522227(
-			"CVE-2025-22227", 
+			"CVE-2025-22227",
 			Arrays.asList("io.projectreactor.netty:reactor-netty-http"),
 			Arrays.asList("1.0.39.rx1")),
 	CVE202567721(
@@ -153,29 +244,33 @@ public enum CveHandled {
 	CVE202634480(
 			"CVE-2026-34480",
 			Arrays.asList("org.apache.logging.log4j:log4j-core"),
-			Arrays.asList("2.17.2-rxlogix-1"));
-	
+			Arrays.asList("2.17.2-rxlogix-1")),
+	CVE202641720(
+			"CVE-2026-41720",
+			Arrays.asList("org.springframework.ldap:spring-ldap-core"),
+			Arrays.asList("2.4.4.rx.1"));
+
 	private final String value;
-	private final List<String> packages; 
+	private final List<String> packages;
 	private final List<String> fixVersions;
-	
+
 	private CveHandled(String value, List<String> packages, List<String> fixVersions) {
 		this.value = value;
 		this.packages = packages;
 		this.fixVersions = fixVersions;
 	}
-	
+
 
 	public String getValue() {
 		return value;
 	}
-	
+
 	public List<String> getFixVersions() {
 		return fixVersions;
 	}
-	
+
 	public List<String> getPackages(){
 		return packages;
 	}
-	
+
 }
