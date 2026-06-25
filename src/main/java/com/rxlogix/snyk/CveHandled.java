@@ -248,7 +248,11 @@ public enum CveHandled {
 	CVE202641720(
 			"CVE-2026-41720",
 			Arrays.asList("org.springframework.ldap:spring-ldap-core"),
-			Arrays.asList("2.4.4.rx.1"));
+			Arrays.asList("2.4.4.rx.1")),
+	CVE202645205(
+			"CVE-2026-45205",
+			Arrays.asList("org.apache.commons:commons-configuration2"),
+			Arrays.asList("2.10.1.rx.1"));
 
 	private final String value;
 	private final List<String> packages;
