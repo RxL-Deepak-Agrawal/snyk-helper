@@ -144,11 +144,15 @@ public enum CveHandled {
 	CVE201818809(
 			"CVE-2018-18809",
 			Arrays.asList("net.sf.jasperreports:jasperreports"),
-			Arrays.asList("6.4.0.2-Rx", "6.4.0.3-Rx")),
+			Arrays.asList("6.4.0.2-Rx", "6.4.0.3-Rx", "6.4.0.4-Rx")),
 	CVE202510492(
 			"CVE-2025-10492",
 			Arrays.asList("net.sf.jasperreports:jasperreports"),
-			Arrays.asList("6.4.0.3-Rx")),
+			Arrays.asList("6.4.0.3-Rx", "6.4.0.4-Rx")),
+	CVE202666009(
+			"CVE-2026-6009",
+			Arrays.asList("net.sf.jasperreports:jasperreports"),
+			Arrays.asList("6.4.0.4-Rx")),
 	CVE202522228(
 			"CVE-2025-22228",
 			Arrays.asList("org.springframework.security:spring-security-crypto"),
@@ -252,7 +256,7 @@ public enum CveHandled {
 	CVE202645205(
 			"CVE-2026-45205",
 			Arrays.asList("org.apache.commons:commons-configuration2"),
-			Arrays.asList("2.10.1.rx.1"));
+			Arrays.asList("2.10.1.rx-1"));
 
 	private final String value;
 	private final List<String> packages;
