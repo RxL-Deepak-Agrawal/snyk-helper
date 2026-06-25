@@ -185,10 +185,8 @@ public enum CveHandled {
 			Arrays.asList("5.8.16-rxlogix-3")),
 	CVE202647838(
 			"CVE-2026-47838",
-			Arrays.asList("org.springframework.security:spring-security-web"),
+			Arrays.asList("org.springframework.security:spring-security-web", "org.springframework.security:spring-security-config"),
 			Arrays.asList("5.8.16-rxlogix-3")),
-
-
 	CVE202522235(
 			"CVE-2025-22235",
 			Arrays.asList("org.springframework.boot:spring-boot-actuator-autoconfigure"),
