@@ -231,7 +231,11 @@ public enum CveHandled {
 	CVE202522227(
 			"CVE-2025-22227",
 			Arrays.asList("io.projectreactor.netty:reactor-netty-http"),
-			Arrays.asList("1.0.39.rx1")),
+			Arrays.asList("1.0.39.rx1", "1.0.39.rx2")),
+	CVE202641715(
+			"CVE-2026-41715",
+			Arrays.asList("io.projectreactor.netty:reactor-netty-http"),
+			Arrays.asList("1.0.39.rx2")),
 	CVE202567721(
 			"CVE-2025-67721",
 			Arrays.asList("io.airlift:aircompressor"),
