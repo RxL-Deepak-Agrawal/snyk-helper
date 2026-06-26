@@ -217,6 +217,13 @@ public enum CveHandled {
 			"CVE-2026-41001",
 			Arrays.asList("org.springframework.boot:spring-boot-autoconfigure"),
 			Arrays.asList("2.7.18-rxlogix-4")),
+
+	// spring-data-keyvalue fork — first fixed in 2.7.18-rxlogix-1 (PVADMIN-50369)
+	CVE202641719(
+			"CVE-2026-41719",
+			Arrays.asList("org.springframework.data:spring-data-keyvalue"),
+			Arrays.asList("2.7.18-rxlogix-1")),
+
 	CVE202548924(
 			"CVE-2025-48924",
 			Arrays.asList("commons-lang:commons-lang"),
