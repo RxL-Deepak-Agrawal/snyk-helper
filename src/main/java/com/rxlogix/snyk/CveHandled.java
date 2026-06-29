@@ -265,7 +265,13 @@ public enum CveHandled {
 	CVE202645205(
 			"CVE-2026-45205",
 			Arrays.asList("org.apache.commons:commons-configuration2"),
-			Arrays.asList("2.10.1.rx-1"));
+			Arrays.asList("2.10.1.rx-1")),
+
+	// spring-retry fork — first fixed in 1.3.4-rxlogix-1 (PVADMIN-50370)
+	CVE202641710(
+			"CVE-2026-41710",
+			Arrays.asList("org.springframework.retry:spring-retry"),
+			Arrays.asList("1.3.4-rxlogix-1"));
 
 	private final String value;
 	private final List<String> packages;
