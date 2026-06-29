@@ -224,6 +224,24 @@ public enum CveHandled {
 			Arrays.asList("org.springframework.data:spring-data-keyvalue"),
 			Arrays.asList("2.7.18-rxlogix-1")),
 
+	// spring-data-commons fork — first fixed in 2.7.18-rxlogix-1 (PVADMIN-50375)
+	CVE202641695(
+			"CVE-2026-41695",
+			Arrays.asList("org.springframework.data:spring-data-commons"),
+			Arrays.asList("2.7.18-rxlogix-1")),
+	CVE202641711(
+			"CVE-2026-41711",
+			Arrays.asList("org.springframework.data:spring-data-commons"),
+			Arrays.asList("2.7.18-rxlogix-1")),
+	CVE202641716(
+			"CVE-2026-41716",
+			Arrays.asList("org.springframework.data:spring-data-commons"),
+			Arrays.asList("2.7.18-rxlogix-1")),
+	CVE202641721(
+			"CVE-2026-41721",
+			Arrays.asList("org.springframework.data:spring-data-commons"),
+			Arrays.asList("2.7.18-rxlogix-1")),
+
 	CVE202548924(
 			"CVE-2025-48924",
 			Arrays.asList("commons-lang:commons-lang"),
