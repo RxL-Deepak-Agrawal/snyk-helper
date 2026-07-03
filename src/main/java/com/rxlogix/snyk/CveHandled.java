@@ -128,19 +128,28 @@ public enum CveHandled {
 	CVE202412801(
 			"CVE-2024-12801",
 			Arrays.asList("ch.qos.logback:logback-core"),
-			Arrays.asList("1.2.13-rx1", "1.2.13-rx2", "1.2.13-rx3")),
+			Arrays.asList("1.2.13-rx1", "1.2.13-rx2", "1.2.13-rx3", "1.2.13-rx4")),
 	CVE202412798(
 			"CVE-2024-12798",
 			Arrays.asList("ch.qos.logback:logback-core", "ch.qos.logback:logback-classic"),
-			Arrays.asList("1.2.13-rx1", "1.2.13-rx2", "1.2.13-rx3")),
+			Arrays.asList("1.2.13-rx1", "1.2.13-rx2", "1.2.13-rx3", "1.2.13-rx4")),
 	CVE202511226(
 			"CVE-2025-11226",
 			Arrays.asList("ch.qos.logback:logback-core"),
-			Arrays.asList("1.2.13-rx2", "1.2.13-rx3")),
+			Arrays.asList("1.2.13-rx2", "1.2.13-rx3", "1.2.13-rx4")),
 	CVE20261225(
 			"CVE-2026-1225",
 			Arrays.asList("ch.qos.logback:logback-core"),
-			Arrays.asList("1.2.13-rx3")),
+			Arrays.asList("1.2.13-rx3", "1.2.13-rx4")),
+	// logback — first fixed in 1.2.13-rx4 (PVADMIN-50428)
+	CVE20269828(
+			"CVE-2026-9828",
+			Arrays.asList("ch.qos.logback:logback-core", "ch.qos.logback:logback-classic", "ch.qos.logback:logback-access"),
+			Arrays.asList("1.2.13-rx4")),
+	CVE202613006(
+			"CVE-2026-13006",
+			Arrays.asList("ch.qos.logback:logback-core"),
+			Arrays.asList("1.2.13-rx4")),
 	CVE201818809(
 			"CVE-2018-18809",
 			Arrays.asList("net.sf.jasperreports:jasperreports"),
